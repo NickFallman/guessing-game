@@ -1,6 +1,6 @@
 class GuessingGame {
     constructor() {
-      this.arrOfPosInts = [];
+      this.guessNum = 0;
     }
 
     setRange(min, max) {
@@ -9,15 +9,16 @@ class GuessingGame {
     }
 
     guess() {
-
+      // this.guessNum = Math.round((this.lowerBound + this.upperBound) / 2);
+      // return (this.guessNum);
     }
 
     lower() {
-
+      // this.upperBound = this.guessNum;
     }
 
     greater() {
-
+      // this.lowerBound = this.guessNum;
     }
 }
 
