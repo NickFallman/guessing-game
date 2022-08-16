@@ -9,16 +9,16 @@ class GuessingGame {
     }
 
     guess() {
-      // this.guessNum = Math.round((this.lowerBound + this.upperBound) / 2);
-      // return (this.guessNum);
+      this.guessNum = Math.round((this.lowerBound + this.upperBound) / 2);
+      return (this.guessNum);
     }
 
     lower() {
-      // this.upperBound = this.guessNum;
+      this.upperBound = this.guessNum;
     }
 
     greater() {
-      // this.lowerBound = this.guessNum;
+      this.lowerBound = this.guessNum;
     }
 }
 
