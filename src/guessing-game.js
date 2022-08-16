@@ -4,7 +4,8 @@ class GuessingGame {
     }
 
     setRange(min, max) {
-
+      this.lowerBound = min;
+      this.upperBound = max;
     }
 
     guess() {
