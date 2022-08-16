@@ -1,5 +1,7 @@
 class GuessingGame {
-    constructor() {}
+    constructor() {
+      this.arrOfPosInts = [];
+    }
 
     setRange(min, max) {
 
